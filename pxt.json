@@ -1,0 +1,22 @@
+{
+    "name": "linethings",
+    "version": "0.0.1",
+    "description": "A Bluetooth service for LINE Things.",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "core": "*",
+        "bluetooth": "*"
+    },
+    "files": [
+        "README.md",
+        "extension.cpp",
+        "LineThingsService.cpp",
+        "LineThingsService.h",
+        "shims.d.ts",
+        "enums.d.ts"
+    ],
+    "testFiles": [
+        "tests.ts"
+    ],
+    "public": true
+}
