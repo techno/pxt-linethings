@@ -22,7 +22,7 @@ Then use the temperature charting from [Bitty data logger](http://www.bittysoftw
 
 ```package
 bluetooth
-bluetooth-temperature-sensor
+linethings
 ```
 
 ## License

@@ -19,7 +19,7 @@ namespace linethings {
     /**
     * Starts a LINE Things service.
     */
-    //% blockId=linethings_start block="LINE Things Service UUID %serviceUuID"
+    //% blockId=linethings_start block="LINE Things Service UUID %serviceUuid"
     void start(StringData *serviceUuid) {
         if (NULL != _pService) return;
 
