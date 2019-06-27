@@ -6,10 +6,9 @@
 declare namespace linethings {
 
     /**
-     * Starts a custom sensor service. The handler must call ``setSensorTemperature`` 
-     * to update the temperature sent to the service.
+     * Starts a LINE Things service.
      */
-    //% blockId=linethings_start block="LINE Things Service" shim=linethings::start
+    //% blockId=linethings_start block="LINE Things Service UUID %serviceUuid" shim=linethings::start
     function start(serviceUuid: string): void;
 }
 
