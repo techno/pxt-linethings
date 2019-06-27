@@ -17,10 +17,9 @@ namespace linethings {
     }
 
     /**
-    * Starts a custom sensor service. The handler must call ``setSensorTemperature`` 
-    * to update the temperature sent to the service.
+    * Starts a LINE Things service.
     */
-    //% blockId=linethings_start block="LINE Things Service"
+    //% blockId=linethings_start block="LINE Things Service UUID %serviceUuID"
     void start(StringData *serviceUuid) {
         if (NULL != _pService) return;
 
